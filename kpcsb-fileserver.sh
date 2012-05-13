@@ -34,6 +34,19 @@ aptitude -y install python-gpgme
 # main poweruser
 ###########################################################
 
+###########################################################
+# main script and download folder
+###########################################################
+
+mkdir ~/scripts
+cd ~/scripts
+
+###########################################################
+# downloading important packages
+###########################################################
+
+wget http://linux.dropbox.com/packages/dropbox.py
+wget http://humanityinbinary.com/VMwareTools-8.8.1-528969.tar.gz
 
 
 ###########################################################
