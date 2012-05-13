@@ -26,22 +26,35 @@ aptitude -y full-upgrade
 # base tools
 ###########################################################
 
-aptitude install vim htop git-core build-essential 
-aptitude linux-headers-3.2.0-23-generic
-aptitude install python-gpgme
+aptitude -y install vim htop git-core build-essential 
+aptitude -y install linux-headers-3.2.0-23-generic
+aptitude -y install python-gpgme
 
 ###########################################################
 # main poweruser
 ###########################################################
 
+###########################################################
+# main script and download folder
+###########################################################
+
+mkdir ~/scripts
+cd ~/scripts
+
+###########################################################
+# downloading important packages
+###########################################################
+
+wget http://linux.dropbox.com/packages/dropbox.py
+wget http://humanityinbinary.com/VMwareTools-8.8.1-528969.tar.gz
 
 
 ###########################################################
 # installation of Samba
 ###########################################################
 
-aptitude install samba samba-common smbfs
-aptitude install python-glade2
+aptitude -y install samba samba-common smbfs
+aptitude -y install python-glade2
 
 
 ###########################################################
