@@ -26,9 +26,10 @@ aptitude -y full-upgrade
 # base tools
 ###########################################################
 
-aptitude install vim htop git-core build-essential
+aptitude -y install vim htop git-core build-essential
 
 ###########################################################
 # installation of Squid
 ###########################################################
 
+aptitude -y install squid
