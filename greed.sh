@@ -6,6 +6,10 @@
 
 sudo apt-get install -y unzip
 
+## FFMpeg
+
+sudo apt-get install -y ffmpeg
+
 ## Rclone - as per website
 
 # Fetch and Unpack
