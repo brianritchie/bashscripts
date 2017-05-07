@@ -2,6 +2,10 @@
 
 ####This will setup the basics
 
+## Unzip
+
+sudo apt-get install -y unzip
+
 ## Rclone - as per website
 
 # Fetch and Unpack
@@ -15,10 +19,11 @@ cd rclone-*-linux-amd64
 sudo cp rclone /usr/bin/
 sudo chown root:root /usr/bin/rclone
 sudo chmod 755 /usr/bin/rclone
+cd
 
 ## Git
 
-sudo apt-get install git
+sudo apt-get install -y git
 
 ## TumblrDownloader
 
@@ -35,11 +40,11 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 
 ## Aria2
 
-sudo apt-get install aria2
+sudo apt-get install -y aria2
 
 ## JDK
 
-sudo apt-get install default-jdk
+sudo apt-get install -y default-jdk
 
 
 ## RipMe
