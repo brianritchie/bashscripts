@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get update
+
 ####This will setup the basics
 
 ## Unzip
