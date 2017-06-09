@@ -52,6 +52,10 @@ sudo apt-get install -y aria2
 
 sudo apt-get install -y default-jdk
 
+## IRC
+
+sudo apt-get install -y irssi irssi-scripts screen openssh-server
+
 
 ## RipMe
 
