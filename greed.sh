@@ -6,7 +6,7 @@ sudo apt-get update
 
 ## Unzip
 
-sudo apt-get install -y unzip
+sudo apt-get install -y unzip p7zip-full
 
 ## FFMpeg
 
